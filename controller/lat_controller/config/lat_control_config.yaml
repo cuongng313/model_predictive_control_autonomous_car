@@ -1,0 +1,61 @@
+lcc:
+  pp:
+    latErrKp: 0.8
+    latErrKi: 0.001
+    latErrKd: 0.1
+    latErrTs: 0.04
+    lookAheadTime: 2.0
+    lookAheadCompensateDistance: 3.0
+    minLookAheadDistance: 0.2
+    maxLookAheadDistance: 25.0
+    wheelBase: 2.85
+    minSteeringWheelAngle: -470.0
+    maxSteeringWheelAngle: +470.0
+    maxSteeringWheelAngleVel: 500.0
+    minLatErrCompensation: -0.00545
+    maxLatErrCompensation: +0.00545
+    kGain: 1.0
+    steeringRatio: 14.5
+
+  mpc:
+    wX: 0
+    wY : 0.0
+    wYaw : 300
+    wDelta : 200
+    wDeltarate : 5000
+    L_f_: 1.425
+    L_r_: 1.425
+    minSteeringAngle: -0.523          #[rad] ~ -30 [degree]
+    maxSteeringAngle: 0.523           #[rad] ~ 30 [degree]
+
+parking:
+  pp:
+    latErrKp: 0.8 #0.8
+    latErrKi: 0.001
+    latErrKd: 0.1 #0.1
+    latErrTs: 0.04
+    lookAheadTime: 2.0 #2.0
+    minLookAheadDistance: 0.3 #0.5
+    maxLookAheadDistance: 2.0 #25.0
+    wheelBase: 2.85
+    minSteeringWheelAngle: -470 #-100.0
+    maxSteeringWheelAngle: +470 #+100.0
+    maxSteeringWheelAngleVel: 500.0 #100.0
+    minLatErrCompensation: -0.00545
+    maxLatErrCompensation: +0.00545
+    kGain: 1.0
+    steeringRatio: 14.5
+
+  mpc:
+    wX: 0 #0
+    wY : 10 #0.0
+    wYaw : 100 #300
+    wDelta : 100 #200
+    wDeltarate : 20 #5000
+    L_f_: 1.425
+    L_r_: 1.425
+    minSteeringAngle: -0.523          #[rad] ~ -30 [degree]
+    maxSteeringAngle: 0.523           #[rad] ~ 30 [degree]
+    kP: 0
+    kI: 0.0
+

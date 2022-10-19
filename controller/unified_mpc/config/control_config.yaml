@@ -1,0 +1,35 @@
+lcc:
+  mpc:
+    wX: 0
+    wY : 0.0
+    wYaw : 300
+    wV: 200
+    wDelta : 100 #200
+    wDeltarate : 20 #5000
+    wAcc: 10
+    wAccRate: 10
+
+    L_f_: 1.425
+    L_r_: 1.425
+    minSteeringAngle: -0.523          #[rad] ~ -30 [degree]
+    maxSteeringAngle: 0.523           #[rad] ~ 30 [degree]
+
+parking:
+  mpc:
+    wX: 200 #0
+    wY: 200 #0.0
+    wYaw: 1000 #300
+    
+    wDelta : 40 #200
+    wDeltarate : 10 #5000
+    wV: 400
+    wVRate: 100
+    k: 1.0
+
+    L_f_: 1.425
+    L_r_: 1.425
+    minSteeringAngle: -0.523          #[rad] ~ -30 [degree]
+    maxSteeringAngle: 0.523           #[rad] ~ 30 [degree]
+    kP: 0
+    kI: 0.0
+
